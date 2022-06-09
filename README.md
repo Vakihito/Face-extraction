@@ -11,10 +11,14 @@ This is the final project for the image processing course at the University of S
 ---
 ## Specificities
 
+### **Image Feature Extraction**
+
+In order to describe an image I use the SIFT descriptor, than I create a bag of words of size "*N*", "*N*" will be the size of our array that will describe our image.  
+
 ---
 ## Notebooks
 Please see the following tutorial notebooks for a guide on how to use this project
- - **Image Feature Extraction** : how to extract features from images using SIFT in order to generate bag of words visual words [notebook](https://colab.research.google.com/drive/1J5B1rTAGaAfFelf8P9d4lXzjjH1j_WBr#scrollTo=rLKUJZz0eCGp)
+ - **Image Feature Extraction** : [notebook](https://colab.research.google.com/drive/1J5B1rTAGaAfFelf8P9d4lXzjjH1j_WBr#scrollTo=rLKUJZz0eCGp)
 
 
 ---
