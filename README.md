@@ -1,4 +1,4 @@
-### [Overview](#overview)  | [Specificities](#specificities) | [Notebooks](#notebooks) | [Results](#results) | [Students](#students) | [References](#references) 
+### [Overview](#overview)  | [Main Steps](#mainsteps) | [Notebooks](#notebooks) | [Results](#results) | [Students](#students) | [References](#references) 
 
 # Face Extraction
 
