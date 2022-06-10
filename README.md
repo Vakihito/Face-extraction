@@ -4,6 +4,8 @@
 
 This is the final project for the image processing course at the University of São Paulo (USP)
 
+OBS : This project was developed in google colab so make sure to use the colab enviroment
+
 ---
 ## Overview
 
