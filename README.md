@@ -15,7 +15,7 @@ In order to do this I did the following steps:
  - 
 
 ---
-## Specificities
+## Main Steps
 
 ### **Image Feature Extraction**
 
