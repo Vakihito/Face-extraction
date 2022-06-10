@@ -24,6 +24,7 @@ Now that an image is described as multiple visual-words, we just need to create 
 
 ### **Face Extraction model**
 
+
 ---
 ## Notebooks
 Please see the following tutorial notebooks for a guide on how to use this project
