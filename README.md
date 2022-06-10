@@ -1,4 +1,4 @@
-### [Overview](#overview)  | [Steps](#steps) | [Notebooks](#notebooks) | [Results](#results) | [Students](#students) | [References](#references) 
+### [Overview](#overview)  | [Steps](#steps) | [Notebooks](#notebooks) | [Results](#results) | [Student](#student) | [References](#references) 
 
 # Face Extraction
 
@@ -33,7 +33,7 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 
 ---
 ## Students
-  - Victor Akihito Kamada Tomita - 10692082
+  - Victor Akihito Kamada Tomita | 10692082 | akihito012@usp.br
 ---
 ## References
   - [Wider Dataset](http://shuoyang1213.me/WIDERFACE/)
