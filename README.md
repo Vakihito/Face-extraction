@@ -38,24 +38,10 @@ GradBost RSME histogram       |KNN RSME histogram         |simpleNN RSME histogr
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/gradientBosting.png) |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/KNNr.png)  |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/simpleNN.png)
 
-<div style="margin: auto; width: 50%; text-align: center;">
-  <table>
-    <tr>
-      <th></th>
-      <th>gradientBosting</th>
-      <th>knnRegression</th>
-      <th>SVGRegression</th>
-      <th>simpleNN</th>
-    </tr>
-   <tr>
-      <th>mean RSME</th>
-      <th>64.5</th>
-      <th>68.15</th>
-      <th>3.607877e+12</th>
-      <th>88.7</th>
-    </tr>
-  </table>
-</div>
+
+| metric        | gradientBosting  | knnRegression | SVGRegression  | simpleNN |
+| ------------- | -------------    | ------------- | -------------  | ------------- |
+| mean RSME |64.5           | 68.15            | 3.60e+12      | 88.7 |
 
 ---
 ## Notebooks
