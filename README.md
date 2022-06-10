@@ -38,7 +38,7 @@ GradBost RSME histogram       |KNN RSME histogram         |simpleNN RSME histogr
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/gradientBosting.png) |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/KNNr.png)  |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/simpleNN.png)
 
-<div style="margin: auto, width: 50%, text-align: center;">
+<div style="margin: auto; width: 50%; text-align: center;">
   <table>
     <tr>
       <th></th>
