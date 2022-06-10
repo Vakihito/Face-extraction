@@ -10,9 +10,8 @@ This is the final project for the image processing course at the University of S
 In this project I did a sistem for sentiment classification in vídeos.
 
 In order to do this I did the following steps:
- - Image Feature Extraction - since we could not use CNN's we used SIFT descriptors in conjunction with k-means in order to generate the bag-of-visual-words.
- - Face Extraction model - With the extracted features from the _Image Feature Extraction_ step, we use diferent types of models to create a bouding box around the face
- - 
+ 1. Image Feature Extraction - since we could not use CNN's we used SIFT descriptors in conjunction with k-means in order to generate the bag-of-visual-words.
+ 2. Face Extraction model - With the extracted features from the _Image Feature Extraction_ step, we use diferent types of models to create a bouding box around the face.
 
 ---
 ## Steps
