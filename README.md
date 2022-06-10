@@ -53,7 +53,7 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 ## Results
 
 ---
-## Students
+## Student
   - Victor Akihito Kamada Tomita | 10692082 | akihito012@usp.br
 ---
 ## References
