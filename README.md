@@ -22,6 +22,8 @@ In order to describe an image I use the SIFT descriptor. The SIFT descriptor wil
 
 Now that an image is described as multiple visual-words, we just need to create the ocorrences that each visual-word occurs in the image, so I create a histogram of ocorrences of visual-words in a image. 
 
+### **Face Extraction model**
+
 ---
 ## Notebooks
 Please see the following tutorial notebooks for a guide on how to use this project
