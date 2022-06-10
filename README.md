@@ -1,4 +1,4 @@
-### [Overview](#overview)  | [Main Steps](#mainsteps) | [Notebooks](#notebooks) | [Results](#results) | [Students](#students) | [References](#references) 
+### [Overview](#overview)  | [Steps](#mainsteps) | [Notebooks](#notebooks) | [Results](#results) | [Students](#students) | [References](#references) 
 
 # Face Extraction
 
@@ -15,7 +15,7 @@ In order to do this I did the following steps:
  - 
 
 ---
-## Main Steps
+## Steps
 
 ### **Image Feature Extraction**
 
