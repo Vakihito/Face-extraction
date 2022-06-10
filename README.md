@@ -34,20 +34,20 @@ With the extracted features from the last step we use diferent types of models i
 
 In the interest of stablishing the best model for this task we calculate the mean of RMSE between each predicted vector and the values that we want to predict, we also display an histogram of each RMSE values.
 
-
 <div class="row" style="clear: both; display: table;">
-  <div class="column" style="float: left; width:30%; padding: 1%;">
-    <img src="[gradientBosting.png](https://github.com/Vakihito/Face-extraction/blob/main/images/Face%20Extraction%20model%20part%201/gradientBosting.png)" alt="Snow">
+  <div class="column" style="float: left; width:30%; padding: 1%;text-align: center;">
+    <h5 style="font-weight: 500;">Gradient bosting histogram</h5>
+    <img src="https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/gradientBosting.png" >
   </div>
-  <div class="column" style="float: left; width:30%; padding: 1%;">
-    <img src="[KNNr.png](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/KNNr.png)" alt="Forest" >
+  <div class="column" style="float: left; width:30%; padding: 1%;text-align: center;">
+    <h5 style="font-weight: 500;">KNNr RSME histogram</h5>
+    <img src="https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/KNNr.png" >
   </div>
-  <div class="column" style="float: left; width:30%; padding: 1%;">
-    <img src="[simpleNN.png](https://github.com/Vakihito/Face-extraction/blob/main/images/Face%20Extraction%20model%20part%201/simpleNN.png)" alt="Mountains" >
+  <div class="column" style="float: left; width:30%; padding: 1%;text-align: center;">
+    <h5 style="font-weight: 500;">Simple NN RSME histogram</h5>
+    <img src="https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/simpleNN.png">
   </div>
 </div>
-
-
 
 <div style="margin: auto, width: 50%, text-align: center;">
   <table>
