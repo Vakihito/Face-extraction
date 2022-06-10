@@ -40,7 +40,7 @@ In the interest of stablishing the best model for this task we calculate the mea
     <img src="[gradientBosting.png](https://github.com/Vakihito/Face-extraction/blob/main/images/Face%20Extraction%20model%20part%201/gradientBosting.png)" alt="Snow">
   </div>
   <div class="column" style="float: left; width:30%; padding: 1%;">
-    <img src="[KNNr.png](https://github.com/Vakihito/Face-extraction/blob/main/images/Face%20Extraction%20model%20part%201/KNNr.png)" alt="Forest" >
+    <img src="[KNNr.png](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/Face%20Extraction%20model%20part%201/KNNr.png)" alt="Forest" >
   </div>
   <div class="column" style="float: left; width:30%; padding: 1%;">
     <img src="[simpleNN.png](https://github.com/Vakihito/Face-extraction/blob/main/images/Face%20Extraction%20model%20part%201/simpleNN.png)" alt="Mountains" >
