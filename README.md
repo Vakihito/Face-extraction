@@ -59,7 +59,7 @@ When a new image is added to the pipeline, we extracted the features using the S
 
 By doing so we get the following results : 
 
-Grad result            |KNN result             |DNN result
+Grad result            |KNN result             |NN result
 :---------------------:|:---------------------:|:---------------------:
 ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/grad_boost_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_knn_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_NN_result.png)
 
