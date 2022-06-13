@@ -53,6 +53,21 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 
 ---
 ## Results
+### Face Extraction model part 1
+
+When a new image is added to the pipeline, we extracted the features using the SIFT+kmeans model that we trained in the *Image extraction* step, then we apply the modelos presented in *Face Extraction model part 1*. 
+****
+By doing so we get the following results : 
+
+GradBost result       |KNN result         |simpleNN result
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/grad_boost_result.png) |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_knn_result.png)  |  ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_NN_result.png)
+
+
+| metric        | gradientBosting  | knnRegression | SVGRegression  | simpleNN |
+| ------------- | -------------    | ------------- | -------------  | ------------- |
+| mean RSME |64.5           | 68.15            | 3.60e+12      | 88.7 |
+
 
 ---
 ## Student
