@@ -53,15 +53,18 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 
 ---
 ## Results
-### Face Extraction model part 1
+### Face Extraction models
 
 When a new image is added to the pipeline, we extracted the features using the SIFT+kmeans model that we trained in the *Image extraction* step, then we apply the modelos presented in *Face Extraction model part 1*. 
 
+For the modelos presented in *Face Extraction model part 2* we expand the bouding box in order to fit the face a litte bit better.
+
 By doing so we get the following results : 
 
-Grad result            |KNN result             |NN result
-:---------------------:|:---------------------:|:---------------------:
-![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/grad_boost_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_knn_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_NN_result.png)
+NN result    |KNN result   | Grad result |DNN result   |DNN-skip result
+:-----------:|:-----------:|:-----------:|:-----------:|:-----------:
+| ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_NN_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/grad_boost_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_knn_result.png)  | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p2_v1/Simple%20NN.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p2_v1/Simple%20NN%20with%20skip.png) |
+
 
 ---
 ## Student
