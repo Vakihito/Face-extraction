@@ -61,7 +61,7 @@ For the modelos presented in *Face Extraction model part 2* we expand the boudin
 
 By doing so we get the following results : 
 
-NN result    |KNN result   | Grad result |DNN result   |DNN-skip result
+NN result    | Grad result | KNN result  |DNN result   |DNN-skip result
 :-----------:|:-----------:|:-----------:|:-----------:|:-----------:
 | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_NN_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/grad_boost_result.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p1_v1/image_knn_result.png)  | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p2_v1/Simple%20NN.png) | ![](https://raw.githubusercontent.com/Vakihito/Face-extraction/main/images/results_face_extraction_p2_v1/Simple%20NN%20with%20skip.png) |
 
