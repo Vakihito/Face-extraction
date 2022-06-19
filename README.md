@@ -9,7 +9,7 @@ OBS : This project was developed in google colab so make sure to use the colab e
 ---
 ## Overview
 
-In this project I did a sistem for sentiment classification in vídeos.
+In this project I made a sistem for sentiment classification in vídeos.
 
 In order to do this I did the following steps:
  1. Image Feature Extraction - since we could not use CNN's we used SIFT descriptors in conjunction with k-means in order to generate the bag-of-visual-words.
