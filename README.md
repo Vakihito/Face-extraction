@@ -34,7 +34,7 @@ Now that an image is described as multiple visual-words, we just need to create 
 
 With the extracted features from the last step we use diferent types of models in order to extract the bounding box. That being said, we have to define wich models to use. Since the task is to predict multiple continuous values the models used are regression models.
 
-In the interest of stablishing the best model for this task we calculate the mean of RMSE between each predicted vector and the values that we want to predict, we also display an histogram of each RMSE values.
+With the interest of stablishing the best model for this task we calculate the mean of RMSE between each predicted vector and the values that we want to predict, we also display an histogram of each RMSE values.
 
 GradBost RSME histogram       |KNN RSME histogram         |simpleNN RSME histogram
 :-------------------------:|:-------------------------:|:-------------------------:
