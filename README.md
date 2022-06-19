@@ -57,7 +57,7 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 
 When a new image is added to the pipeline, we extracted the features using the SIFT+kmeans model that we trained in the *Image extraction* step, then we apply the modelos presented in *Face Extraction model part 1*. 
 
-For the modelos presented in *Face Extraction model part 2* we expand the bouding box in order to fit the face a litte bit better.
+For the models presented in *Face Extraction model part 2* we expand the bouding box in order to fit the face a litte bit better.
 
 By doing so we get the following results : 
 
