@@ -1,5 +1,7 @@
 ### [Overview](#overview)  | [Steps](#steps) | [Notebooks](#notebooks) | [Results](#results) | [Student](#student) | [References](#references) 
 
+---
+
 # Face Extraction
 
 This is the final project for the image processing course at the University of São Paulo (USP)
@@ -50,13 +52,25 @@ GradBost RSME histogram       |KNN RSME histogram         |simpleNN RSME histogr
 
 ---
 ## Notebooks
-Please see the following tutorial notebooks for a guide on how to use this project
- - **Image Feature Extraction** : [notebook](https://colab.research.google.com/drive/**1J5B1rTAGaAfFelf8P9d4lXzjjH1j_WBr**#scrollTo=rLKUJZz0eCGp)
- - **Face Extraction model part 1** : [notebook](https://colab.research.google.com/drive/14EdCEEEd_vQPIMs6hrZXmW4ZPI250XAt#scrollTo=GivtF11O1irD)
 
+Please see the following tutorial notebooks for a guide on how to use this project
+1. **Image Feature Extraction**
+    - **Image Feature Extraction** : Extracting features from the images using SIFT descriptors and training the kmeans model in order to describe the images via a BOVW | [notebook](https://colab.research.google.com/drive/**1J5B1rTAGaAfFelf8P9d4lXzjjH1j_WBr**#scrollTo=rLKUJZz0eCGp)
+2. **Face Extraction model**
+    - **Face Extraction model part 1** : Training the classic models for sentiment classification based on the BOWV extracted features | [notebook](https://colab.research.google.com/drive/14EdCEEEd_vQPIMs6hrZXmW4ZPI250XAt#scrollTo=GivtF11O1irD)
+      - **Usage Example Face Extraction model part 1** : simple example of how to use some classic models with the BOVW model for face extraction | [notebook](https://colab.research.google.com/drive/1pNhG9B1uXoCzdrvPrtro_vuRJgY8rYtD?usp=sharing)
+    
+    - **Face Extraction model part 2** : Training the NN models for sentiment classification based on the BOWV extracted features | [notebook](https://colab.research.google.com/drive/1i5NsDxVnRSCGx2uGFjvhZbfw2RYgyGH9?usp=sharing)
+      - **Usage Example Face Extraction model part 2** : simple example of how to use the NN models with the BOVW model for face extraction | [notebook](https://colab.research.google.com/drive/10T90dbLjuEftYs7sJT28SVzVT-R6Zrt7?usp=sharing)
+3. **Sentiment Classification in Faces**
+   - **Finetuning RESNET-50** : In this notebook I train the RESNET-50 for sentiment classification in faces for the FER-2013 dataset | [notebook](https://drive.google.com/file/d/1ikRLxBHUBzAoIGYc9EMNFGWmpcnQouYB/view?usp=sharing) 
+4. **Sentiment Classification in Text**
+   - **Finetuning DistilBERt**: In this notebook I use the distilBERT model in order to extract embeddings from the text, then I create a simple NN for classification, to train this simple NN I used the IMDB dataset | [notebook](https://drive.google.com/file/d/1rx0_qJihVTI8dUdJY28gv336bpnmClJl/view?usp=sharing)
+5. **Sentiment Classificaiton in Videos using multimodel model**
+   - **Final Aplication** - This aplication gets the **ID** of a youtube video, downloads it, then separetes in each channel. the text channel is classified by the text model, the video channel is classified via face extraction followed by the face classification model. Then the multimodel model is trained and the final result is generated | [notebook](https://drive.google.com/file/d/1dgfomn0gcm3Hd96Mm5r2BR8gDaEF2EPi/view?usp=sharing) 
 ---
-## Results
-### Face Extraction models
+## **Results**
+### **1. Face Extraction models**
 
 When a new image is added to the pipeline, we extracted the features using the SIFT+kmeans model that we trained in the *Image extraction* step, then we apply the modelos presented in *Face Extraction model part 1*. 
 
@@ -76,3 +90,5 @@ NN result    | Grad result | KNN result  |DNN result   |DNN-skip result
 ## References
   - [Wider Dataset](http://shuoyang1213.me/WIDERFACE/)
   - [SKLearn](https://scikit-learn.org/stable/modules/multiclass.html)
+  - [FER-2013](https://arxiv.org/pdf/1910.06044.pdf)
+  - [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
