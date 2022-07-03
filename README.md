@@ -89,6 +89,8 @@ That said, each embedding goes through a dense layer, then a merge block is appl
 
 ## Notebooks
 
+Since the project is already to extense I tried explaining only the notebooks from V1 face extraction, but for the last topic ( aplication ) I made all versions available. 
+
 Please see the following tutorial notebooks for a guide on how to use this project
 1. **Image Feature Extraction**
     - **Image Feature Extraction** : Extracting features from the images using SIFT descriptors and training the kmeans model in order to describe the images via a BOVW | [notebook](https://colab.research.google.com/drive/**1J5B1rTAGaAfFelf8P9d4lXzjjH1j_WBr**#scrollTo=rLKUJZz0eCGp)
@@ -103,7 +105,7 @@ Please see the following tutorial notebooks for a guide on how to use this proje
 4. **Sentiment Classification in Text**
    - **Finetuning DistilBERt**: In this notebook I use the distilBERT model in order to extract embeddings from the text, then I create a simple NN for classification, to train this simple NN I used the IMDB dataset | [notebook](https://drive.google.com/file/d/1rx0_qJihVTI8dUdJY28gv336bpnmClJl/view?usp=sharing)
 5. **Sentiment Classificaiton in Videos using multimodel model**
-   - **Final Aplication** - This aplication gets the **ID** of a youtube video, downloads it, then separetes in each channel. the text channel is classified by the text model, the video channel is classified via face extraction followed by the face classification model. Then the multimodel model is trained and the final result is generated | [notebook](https://drive.google.com/file/d/1dgfomn0gcm3Hd96Mm5r2BR8gDaEF2EPi/view?usp=sharing) 
+   - **Final Aplication** - This aplication gets the **ID** of a youtube video, downloads it, then separetes in each channel. the text channel is classified by the text model, the video channel is classified via face extraction followed by the face classification model. Then the multimodel model is trained and the final result is generated | [notebook V1](https://drive.google.com/file/d/1dgfomn0gcm3Hd96Mm5r2BR8gDaEF2EPi/view?usp=sharing) | [notebook V2](https://colab.research.google.com/drive/13rrSdsZH237WGgQBVAD0UiBgbNRXXIkj) | [notebook V3](https://colab.research.google.com/drive/13rrSdsZH237WGgQBVAD0UiBgbNRXXIkj)
 ---
 ## **Results**
 ### **1. Face Extraction models**
