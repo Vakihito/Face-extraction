@@ -89,7 +89,7 @@ That said, each embedding goes through a dense layer, then a merge block is appl
 
 ## Notebooks
 
-Since the project is already to extense I tried explaining only the notebooks from V1 face extraction, but for the last topic ( aplication ) I made all versions available. 
+Since the project is already too extense I tried explaining only the notebooks from V1 face extraction, but for the last topic ( aplication ) I made all versions available. 
 
 Please see the following tutorial notebooks for a guide on how to use this project
 1. **Image Feature Extraction**
