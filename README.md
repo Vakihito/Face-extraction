@@ -129,7 +129,6 @@ By doing so we get the following results for each version of face extraction:
 V1 | V2 | V3 |
 :-:|:--:|:--:|
 | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V1/V1.gif?raw=true) | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V2/V2.gif?raw=true) | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V3/V3.gif?raw=true)
-
 </p>
 
 ---
