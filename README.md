@@ -9,7 +9,7 @@ This is the final project for the image processing course at the University of S
 OBS : This project was developed in google colab so make sure to use the colab enviroment
 
 <p align="center">
-   <img src="https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V3/V3.gif?raw=true" width="100" />
+   <img src="https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V3/V3.gif?raw=true" width="150" />
 </p>
 
 ---
