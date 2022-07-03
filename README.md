@@ -1,4 +1,4 @@
-### [Overview](#overview)  | [Steps](#steps) | [Notebooks](#notebooks) | [Results](#results) | [Student](#student) | [References](#references) 
+### [Overview](#overview)  | [Steps](#steps) | [Notebooks](#notebooks) | [Results](#results) | [Points](#points) | [Student](#student) | [References](#references) 
 
 ---
 
@@ -121,22 +121,37 @@ NN result    | Grad result | KNN result  |DNN result   |DNN-skip result
 
 ### **5. Sentiment analisys in videos**
 
-Finally, for the results of each version of face extraction, I create an aplication that extract the video from Youtube and then run each part of this project over the video.
+Finally, for the results of each version of face extraction, I changed the aplication that extract the video from Youtube and then run each part of this project over the video. I didn't talk about the diferences of each version because it would make the workflow a little bit hard to explain. But I'll talk a little bit about it on the "Points" Section. 
+
+This final results are only using the best model for face extraction, BOWV followed by DNN-skip. 
 
 By doing so we get the following results for each version of face extraction: 
-<p align="center">
 
-V1 | V2 | V3 |
-:-:|:--:|:--:|
+<div align="center">
+
+|V1 | V2 | V3 |
+|:-:|:--:|:--:|
 | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V1/V1.gif?raw=true) | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V2/V2.gif?raw=true) | ![](https://github.com/Vakihito/Face-extraction/blob/main/images/final%20result/V3/V3.gif?raw=true)
-</p>
+
+</div>
+
+---
+## Points
+
+The main points that i would like to talk abour is the problems related with the version 1 e 2, in V1 i tried extracting the BOWV via SIFT descriptors, and it didn't really work ... In version V2 i tried using expanding the dataset by using the Celeb Dataset by doing so it made version a little bit better, I also tried using LBP but it also didn't really work ... For version V3 I resize the image then use the points of the SIFT descriptor, followed by quantization and create a histogram from it. The ideia is that there will be more SIFT points in the face region.
+
+All in all, I think that it works quite well, the face expression model is able to classify the face polarity quite well, the same goes to the text classification model. And even though the V3 face extraction model is not perfect the face classificaiton model still is able to classify the face polarity wich is the main gol. 
 
 ---
 ## Student
-  - Victor Akihito Kamada Tomita | 10692082 | akihito012@usp.br
+The work distribution was : Victor Akihito did everything !
+
+  - Victor Akihito Kamada Tomita | 10692082 | akihito012@usp.br 
+
 ---
 ## References
   - [Wider Dataset](http://shuoyang1213.me/WIDERFACE/)
+  - [Celeb Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
   - [SKLearn](https://scikit-learn.org/stable/modules/multiclass.html)
   - [FER-2013](https://arxiv.org/pdf/1910.06044.pdf)
   - [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
