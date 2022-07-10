@@ -6,7 +6,7 @@
 
 This is the final project for the image processing course at the University of São Paulo (USP) 
 
-OBS : This project was developed in google colab so make sure to use the colab enviroment, if you want to just test the final version please use this : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1NWbl8s3NyF-bp_RvT3qyE_Q1HliV-uQK/view?usp=sharing)
+OBS : This project was developed in google colab so make sure to use the colab enviroment, if you want to just test the final version please use this : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NWbl8s3NyF-bp_RvT3qyE_Q1HliV-uQK)
 
 
 <p align="center">
